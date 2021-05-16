@@ -1,0 +1,49 @@
+.rose{
+    background-color: salmon;
+    height:350px;
+    width:100%;
+    position:fixed 
+
+}
+.mauve{
+    background-color: purple;
+    height: 200px;
+    width:200px;
+    position: absolute;
+    top :170px;
+    left:80%;
+}
+.bleuciel{
+    background-color: lightskyblue;
+    height:500px;
+    width:70%;
+    position:absolute;
+    top: 400px;
+    left:200px;
+}
+.mauve2{
+    background-color: purple;
+    height:200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left:80%;
+
+}
+.bleuciel2{
+    background-color: lightskyblue;
+    height: 2500px;
+    width:70%;
+    position:absolute;
+    top: 900px;
+    left: 200px;
+
+}
+.jaune{
+    background-color: yellow;
+    height:250px;
+    width:250px;
+    position:sticky;
+    top:100px;
+
+}

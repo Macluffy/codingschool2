@@ -1,0 +1,213 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+width: 100%;
+background-color:#334D5C;
+display: flex;
+}
+.un{
+    width: 50%;
+    height: 100%;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.un>p{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.deux{
+    display:flex;
+    height: 78px;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.deux>p{
+    color:white;
+    font-weight: bold;
+    display: flex;
+    
+}
+/* fin nav bar */
+
+
+/* media */
+@media (max-width:640px) 
+{
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .deux{
+        display:flex;
+        justify-content: space-around;
+        border:solid red 2px;
+        width: 100%;
+    }
+    .img2{
+        height: 100px;
+        width:120px;
+    }
+    .sept{
+        height: 130px;
+    }
+    .huit{
+        height:130px; 
+    }
+}
+
+@media (min-width:641px) and (max-width:1007px){ 
+    .deux{
+        width: 50%;
+    }
+    .img2{
+        height:150px;
+        width: 200px;
+    }
+    .sept{
+        height:210px; 
+    }
+    .huit{
+        height:210px; 
+    }
+}
+@media (min-width:1008px){ 
+    .deux{
+        width: 40%;
+    }
+    .img2{
+        height:200px;
+        width: 300px;
+    }
+.sept{
+    height: 300px; 
+}
+.huit{
+    height:300px; 
+}
+}
+
+
+/* premiere section */
+.section1{
+    background-color:rgb(240, 15, 248);
+    display: block;
+}
+.trois{
+    display: block;
+    
+
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+.quatre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+.cinq{
+    display:block;
+    text-align: center;
+    height: 200px;
+
+}
+.cinq>h1{
+    color:white;
+    font-size: 35px;
+}
+.cinq>p{
+    color:white;
+    font-size: 13px;
+}
+/* deuxieme section */
+.section2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.six{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 150px;
+}
+.six>h1{
+    color:#334D5C;
+    font-size: 35px;
+    text-align: center;
+}
+
+.sept{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+.huit{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+/* troisieme section */
+.section3{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(240, 15, 248);
+}
+
+.neuf{
+    height: 100px;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}
+.neufetdemi{
+    display: flex;
+    width:100%
+}
+.dix{
+    
+    width: 50%;
+}
+.onze{
+    
+    width: 50%;
+}
+.pp{
+    display: flex;
+    justify-content:flex-end;
+    width: 48%;
+
+}
+.ppp{
+    width: 48%;
+}
+.pppp{
+    width: 4%;
+}
+.neuf>h1{
+    color:white;
+    font-size: 35px;
+}
+.onze>p{
+    color:white;
+}
+.dix>p{
+    color:white;
+}
+.lol{
+    height: 100px;
+}

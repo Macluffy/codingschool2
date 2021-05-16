@@ -1,0 +1,62 @@
+div {
+  /* animation-name: mymove; */
+  animation-name: mymove1;
+  animation-duration: 4s;
+  /* animation-fill-mode: forwards; */
+  /* animation-direction: reverse; */
+  /* animation-iteration-count: 2; */
+  /* animation-direction:alternate; */
+animation-delay: 2s;
+}
+
+@keyframes mymove {
+    from {left: 0px;} /* 0% */
+    to {left: 200px;} /* 100% */
+}
+div:hover{
+  animation-play-state: paused;
+}
+/* @keyframes mymove1{
+  0%{left:0%;
+    top:0%
+  }
+  25%{left:50%;
+    top:0%;
+
+  }
+  50%{left:50%;
+    top:50%
+
+  }
+  75%{left:0%;
+    top:50%;
+
+  }
+  100%{left:0%;
+    top:0%;
+
+  }
+} */
+#bounce-title{
+  animation-name: myh2;
+  animation-duration: 3s;
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position:relative;
+
+}
+@keyframes myh2{
+  from{
+    transform:scaleY(1);
+    transform:scaleX(2);
+    bottom: 0px;
+    transform-origin: 0 0;
+  }
+  to{
+    transform:scaleY(2);
+    transform:scaleX(1);
+    bottom: 100px;
+    transform-origin: 0 0;
+  }
+}

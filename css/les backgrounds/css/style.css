@@ -1,0 +1,100 @@
+/* début Aspect général */
+*{
+    font-family: arial;
+}
+body{
+    background-color: #f2f2f2;
+    padding: 100px 0 200px 0;
+}
+h1{
+    text-align: center;
+}
+h1,h3{
+    color: #0d0d0d;
+}
+.container{
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.float-left{
+    float: left;
+    margin-right: 20px;
+   
+}
+.box-300{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+}
+.box-400-600{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.clear{
+    clear: both;
+}
+/* fin Aspect général */
+
+
+
+/* début exo 01 background-color */
+.bg-color-1{
+}
+.bg-color-2{
+}
+/* fin exo 01 background-color */
+
+/* début exo 02 background*/
+.bg-1{
+}
+.bg-2{
+}
+.bg-3{
+}
+.bg-4{
+}
+/* fin exo 02 background*/
+
+/* début exo 03 background-position*/
+.img-1{ 
+}
+.img-2{
+}
+.img-3{
+}
+.img-4{
+}
+/* fin exo 03 background-position*/
+
+/* début exo 04 background-repeat*/
+.img-5{
+}
+.img-6{
+}
+.img-7{
+}
+/* fin exo 04 background-repeat*/
+
+/* début exo 05 background-size*/
+.img-8{ 
+}
+.img-9{ 
+}
+.img-10{
+}
+.img-11{
+}
+/* fin exo 05 background-size*/
+
+/* début exo 06 background-attachement*/
+.img-12{
+}
+.img-13{
+}
+/* fin exo 06 background-attachement*/
+
+

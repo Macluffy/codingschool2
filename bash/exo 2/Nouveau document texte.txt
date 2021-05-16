@@ -1,0 +1,84 @@
+/home
+/home/etudiant/fichiers_john/cours
+/tmp
+/etc/firefox/
+/bin
+/home/etudiant/fichiers_bob/musiques/
+
+
+
+/home/etudiant/fichiers_john/cours/reseaux/intro_reseaux.pdf
+/home/etudiant/fichiers_bob/films/inception.avi
+/etc/firefox/sysprefs.js
+/home/etudiant/fichiers_john/cours/liste_cours.txt
+
+
+
+cd  /lib
+cd /home/etudiant/fichiers_john/cours/java
+cd /home/etudiant/fichiers_bob/bureau
+cd /home/etudiant/fichiers_john/bureau
+
+
+
+cd /home/etudiant/fichiers_bob/musiques
+mkdir techno
+cd /home/etudiant/fichiers_john/cours
+mkdir analyse
+cd /home/etudiant/fichiers_bob/films
+mkdir drames
+mkdir comedies
+cd /home/etudiant/fichiers_john/cours/bureautique
+mkdir word excel
+mkdir excel
+
+
+
+mkdir -p hiphop/2010
+
+mkdir -p gestion/comptabilite/factures
+
+mkdir -p programme/jeu
+mkdir -p doc/jeu
+
+
+
+touch reseaux_cours2.txt
+touch listefilms
+rm happy.wav
+mkdir test
+rmdir test
+rm -rf musiques
+
+
+cp -r exercice1.pdf /home/etudiant/fichier_john/backups
+cp -r forrest_gump.avi /home/etudiant/fichier_john/backups
+cp -r java /home/etudiant/fichier_bob/bureau
+cp -r reseau /tmp
+cp -r musiques /home/etudiant/fichier_john
+cp -r firefox /tmp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
